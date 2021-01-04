@@ -70,7 +70,8 @@ export default function GameDetail({ pathId }) {
 										game.platforms.map((data) => (
 											<img
 												src={getPlatform(data.platform.name)}
-												key={data.platform.id}></img>
+												key={data.platform.id}
+												alt=''></img>
 										))}
 								</Platforms>
 							</Info>
